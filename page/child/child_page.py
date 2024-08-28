@@ -40,6 +40,3 @@ class childPage(BasePage):
         api_hash = config["key"]["api_hash"]
         async with ChildBot('child', api_id, api_hash, self.baseMsg.text).bot as bot:
             await bot.run()
-        # self.getBotMessage()
-        # 7345474348:AAHAYA73wkWdoGyW9taZY6MVOxJbhH2Na58
-        # await self.botMessage.send_reply("回复机器人TOKEN")
