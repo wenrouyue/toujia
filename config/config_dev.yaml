@@ -12,7 +12,7 @@ database:
   password: 123123
   database: toujia
   port: 3306
-  database_uri: 'mysql+pymysql://root:manjiu521@127.0.0.1:3306/toujia'
+  database_uri: 'mysql+pymysql://root:123123@127.0.0.1:3306/toujia'
 cache:
   RATE_LIMIT_COUNT: 5
   RATE_LIMIT_WINDOW: 60
