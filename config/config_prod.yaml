@@ -12,7 +12,7 @@ database:
   password: 123123
   database: toujia
   port: 3306
-  database_uri: 'mysql+pymysql://root:manjiu521@127.0.0.1:3306/toujia'
+  database_uri: 'mysql+pymysql://root:123123@127.0.0.1:3306/toujia'
 cache:
   RATE_LIMIT_COUNT: 5
   RATE_LIMIT_WINDOW: 60
@@ -20,11 +20,11 @@ key:
   api_id: 123456
   api_hash: f123456fb92ff12345604a123456e2
 botFather:
-  name: cuilon_bot
+  name: c123123_bot
   link: https://t.me/123456_bot
   token: 711234565:AAF123456SBCZiXT_IvQ3Tb123456
 redisKey:
-  adminId: "6412345688"
+  adminId: "6412345128"
   adminList: "adminList"
   userBlank: "userBlank"
   userSearchCount: "userSearch:Count"
