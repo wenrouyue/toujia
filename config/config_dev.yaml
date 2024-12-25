@@ -20,11 +20,11 @@ key:
   api_id: 123456
   api_hash: f123456fb92ff12345604a123456e2
 botFather:
-  name: cuilon_bot
+  name: c123_bot
   link: https://t.me/123456_bot
   token: 711234565:AAF123456SBCZiXT_IvQ3Tb123456
 redisKey:
-  adminId: "6412345688"
+  adminId: "6412345128"
   adminList: "adminList"
   userBlank: "userBlank"
   userSearchCount: "userSearch:Count"
