@@ -22,7 +22,7 @@ key:
 botFather:
   name: c123123_bot
   link: https://t.me/123456_bot
-  token: 711234565:AAF123456SBCZiXT_IvQ3Tb123456
+  token: 6412345128:AAF123456SBCZiXT_IvQ3Tb123456
 redisKey:
   adminId: "6412345128"
   adminList: "adminList"
