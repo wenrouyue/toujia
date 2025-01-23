@@ -32,9 +32,9 @@ class AdminPage(BasePage):
             [InlineKeyboardButton(text="🧑‍💼 我的信息", callback_data="我的"),
              InlineKeyboardButton(text="💰️ 任务大厅", callback_data="任务"), ],
             [InlineKeyboardButton(text="✨️ 复制机器人", callback_data="复制"),
-             InlineKeyboardButton(text="📑 使用教程", url="https://t.me/cuilon_bot"), ],
-            [InlineKeyboardButton(text="🥱 聊天交友", url="https://t.me/cuilon_bot"),
-             InlineKeyboardButton(text="👩‍💻 联系客服", url="https://t.me/cuilon_bot"), ],
+             InlineKeyboardButton(text="📑 使用教程", url="https://t.me/xxxx_bot"), ],
+            [InlineKeyboardButton(text="🥱 聊天交友", url="https://t.me/xxxx_bot"),
+             InlineKeyboardButton(text="👩‍💻 联系客服", url="https://t.me/xxxx_bot"), ],
         ])
         user = ToujiaUser(tg_id=self.userId, name=self.name, user_name=self.userName)
         db_user = db.session.query(ToujiaUser).filter_by(tg_id=self.userId).first()
